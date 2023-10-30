@@ -1,0 +1,382 @@
+@media screen and (min-width: 1px) and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+
+  nav .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page1 .container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .page2 {
+    flex-direction: column;
+  }
+  .page2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page2 .top .card {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .page2 .top {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .page2 .bottom {
+    flex-direction: column;
+  }
+  .page2 .bottom .card {
+    flex-direction: column;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .container h1 {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  nav .container {
+    align-items: center;
+  }
+
+  .page1 .container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .page1 .container h1 {
+    font-size: 50px;
+  }
+
+  .page2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page2 .top .card {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .page2 .top .card {
+    width: 550px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .top .card h1 {
+    font-size: 55px;
+  }
+  .page2 .top .card img {
+    width: 400px;
+    height: 400px;
+  }
+  .page2 .top {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .page2 .bottom {
+    flex-direction: column;
+  }
+  .page2 .bottom .card {
+    width: 550px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .bottom .card h1 {
+    font-size: 50px;
+  }
+
+  .page2 .bottom .card img {
+    width: 400px;
+    height: 400px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .container h1 {
+    width: 90%;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  footer .container h1 a {
+    width: 90%;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+
+  nav .container {
+    align-items: center;
+  }
+
+  .page1 .container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .page1 .container h1 {
+    font-size: 50px;
+  }
+
+  .page2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page2 .top .card {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .page2 .top .card {
+    width: 550px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .top .card h1 {
+    font-size: 55px;
+  }
+  .page2 .top .card img {
+    width: 400px;
+    height: 400px;
+  }
+  .page2 .top {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .page2 .bottom {
+    flex-direction: column;
+  }
+  .page2 .bottom .card {
+    width: 550px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .bottom .card h1 {
+    font-size: 50px;
+  }
+
+  .page2 .bottom .card img {
+    width: 400px;
+    height: 400px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .container h1 {
+    width: 90%;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  footer .container h1 a {
+    width: 90%;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+
+  nav .container {
+    align-items: center;
+  }
+
+  .page1 .container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .page1 .container h1 {
+    font-size: 50px;
+  }
+
+  .page2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page2 .top .card {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .page2 .top .card {
+    width: 800px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .top .card h1 {
+    font-size: 55px;
+  }
+  .page2 .top .card img {
+    width: 600px;
+    height: 600px;
+  }
+  .page2 .top {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .page2 .bottom {
+    flex-direction: column;
+  }
+  .page2 .bottom .card {
+    width: 800px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .bottom .card h1 {
+    font-size: 50px;
+  }
+
+  .page2 .bottom .card img {
+    width: 600px;
+    height: 600px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .container h1 {
+    width: 90%;
+    font-size: 35px;
+    text-transform: capitalize;
+  }
+  footer .container h1 a {
+    width: 90%;
+    font-size: 35px;
+    text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+
+  nav .container {
+    align-items: center;
+  }
+
+  .page1 .container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .page1 .container h1 {
+    font-size: 50px;
+  }
+
+  .page2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page2 .top .card {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .page2 .top .card {
+    width: 550px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .top .card h1 {
+    font-size: 55px;
+  }
+  .page2 .top .card img {
+    width: 400px;
+    height: 400px;
+  }
+  .page2 .top {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .page2 .bottom {
+    flex-direction: column;
+  }
+  .page2 .bottom .card {
+    width: 550px;
+    background-color: black;
+    color: gold;
+  }
+  .page2 .bottom .card h1 {
+    font-size: 50px;
+  }
+
+  .page2 .bottom .card img {
+    width: 400px;
+    height: 400px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .container h1 {
+    width: 90%;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+  footer .container h1 a {
+    width: 90%;
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+}

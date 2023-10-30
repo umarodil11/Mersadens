@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+nav {
+  background-color: #e9d3d3;
+}
+
+nav .container {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .container .left h1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+nav .container .right {
+  gap: 30px;
+  display: flex;
+}
+
+nav .container .right a {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.page1 {
+  width: 100%;
+  background-color: #e9d3d3;
+}
+
+.page1 .container {
+  width: 100%;
+  padding: 150px 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page1 .container h1 {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.page1 .container p {
+  font-size: 25px;
+  display: flex;
+  gap: 15px;
+  letter-spacing: 3px;
+}
+
+.page2 {
+  width: 100%;
+  background-color: #e9d3d3;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page2 .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.page2 .top .card {
+  width: 300px;
+  display: flex;
+  padding: 10px 0;
+
+  background-color: #fff;
+  gap: 30px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 3px solid rgb(0, 0, 0);
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  justify-content: center;
+  height: 60vh;
+}
+
+.page2 .top .card h1 {
+  font-size: 25px;
+}
+.page2 .top .card img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 15px;
+}
+
+.page2 .bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.page2 .bottom .card {
+  width: 300px;
+  display: flex;
+  padding: 10px 0;
+
+  background-color: #fff;
+  gap: 30px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 3px solid rgb(0, 0, 0);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  justify-content: center;
+  height: 60vh;
+}
+
+.page2 .bottom .card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #d4caca;
+}
+
+footer .container {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container h1 a {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+footer .container h1 a:hover {
+  text-decoration: none;
+}
+
+footer .container h1 {
+  font-size: 20px;
+}
