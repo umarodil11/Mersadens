@@ -17,6 +17,9 @@ nav .container {
   align-items: center;
   justify-content: space-around;
 }
+NAV .container .menu2 {
+  display: none;
+}
 
 nav .container .left h1 {
   font-size: 40px;
@@ -97,7 +100,38 @@ nav .container .right a {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
   justify-content: center;
-  height: 60vh;
+  /* height: 60vh; */
+}
+.page2 .top .card a {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid black;
+}
+.page2 .top .card a:hover {
+  transform: scale(1.1);
+}
+.page2 .bottom .card a {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+  justify-content: center;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: black;
+  color: #fff;
+  border: 1px solid black;
+}
+.page2 .bottom .card a:hover {
+  transform: scale(1.1);
 }
 
 .page2 .top .card h1 {
@@ -130,7 +164,6 @@ nav .container .right a {
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
   justify-content: center;
-  height: 60vh;
 }
 
 .page2 .bottom .card img {

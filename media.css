@@ -4,8 +4,22 @@
   }
 
   nav .container {
-    flex-direction: column;
     align-items: center;
+  }
+
+  nav .container .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  nav .container .menu2 {
+    display: block;
+    flex-direction: column;
+  }
+
+  nav .container .menu2 .right {
+    flex-direction: column;
+    gap: 0px;
   }
 
   .page1 .container {
@@ -24,11 +38,11 @@
     align-items: center;
     justify-content: center;
   }
-
+  /* 
   .page2 .top .card {
     flex-direction: column;
     flex-wrap: wrap;
-  }
+  } */
   .page2 .top {
     flex-direction: column;
     display: flex;
