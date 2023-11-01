@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #000;
+}
+
+nav .container {
+  width: 1200px;
+  padding: 5px 0;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .container .menu2 {
+  display: none;
+}
+
+nav .container .menu .right a {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+nav .container .menu .right {
+  display: flex;
+  gap: 25px;
+}
+
+nav .container .left h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.page1 {
+  background: url("sports.jpg");
+  background-position: center;
+}
+
+.page1 .container {
+  width: 1200px;
+  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.page1 .container h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+.page1 .container p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+  width: 66%;
+}
+
+.page2 {
+  background-color: #000;
+  padding: 30px;
+}
+
+.page2 .container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.page2 .container .card {
+  width: 320px;
+  padding: 5px 0;
+  background-color: #000;
+  border: 3px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: #fff;
+  height: 500px;
+}
+
+.page2 .container .card img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  padding: 45px 0;
+}
+
+.page2 .container .card p {
+  width: 80%;
+  padding: 10px 20px;
+  border: 1px solid;
+}

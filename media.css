@@ -20,6 +20,7 @@
   nav .container .menu2 .right {
     flex-direction: column;
     gap: 0px;
+    color: gold;
   }
 
   .page1 .container {
